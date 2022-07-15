@@ -5,13 +5,15 @@
     ],
     "compilerOptions": {
         "outDir": "build",
-        "target": "ES5",
+        "target": "ES6",
         /* lib는 정의해주는 파일 */
         /* DOM은 브라우저에서 실행할지 말지를 결정해줌 브라우저에서 쓸거면 꼭 써야함 */
         "lib": ["ES6","DOM"],
         /* 엄격모드 */
         "strict": true,
-        /* 자바스크립트 허용 */
-        "allowJs": true,
+        /* 자바스크립트 혼합 사용 허용 */
+        // "allowJs": true,
+        "esModuleInterop": true,
+        "module": "CommonJS"
     }
 }
