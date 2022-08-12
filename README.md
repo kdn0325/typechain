@@ -176,6 +176,8 @@ const b = new Bmw("green");
 console.log(b)
 b.start
 
+클래스 정의 
+
 
 <class>
 
@@ -185,6 +187,3 @@ class Player {
         private lastname : string
     ){}
 }
-
-
-
