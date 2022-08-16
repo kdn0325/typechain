@@ -112,4 +112,3 @@ let helloPerson: HelloPerson = function (name:string){
 helloPerson("Mark")
 
 //함수의 타입 체크는 할당할때가 아니라 사용할때 합니다
-```
