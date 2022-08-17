@@ -1,6 +1,5 @@
 # Typescript Basic
 
----
 
 Primitive Type : 실제 값을 저장하는 자료형
 
