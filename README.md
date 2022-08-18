@@ -31,8 +31,6 @@ Array : 배열 객체
 
 # Type Assertion
 
----
-
 형 변환과 다름 
 
 ‘타입이 이것이다'라고 컴파일러에게 알려주는 것을 의미함
@@ -42,13 +40,9 @@ Array : 배열 객체
 
 # Type Alias
 
----
-
 타입 별칭을 지어줌
 
 # Interface
-
----
 
 ### class implements interface
 
