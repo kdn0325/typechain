@@ -105,3 +105,24 @@ let helloPerson: HelloPerson = function (name:string){
 helloPerson("Mark")
 
 //함수의 타입 체크는 할당할때가 아니라 사용할때 합니다
+
+### Class
+
+```tsx
+class Person {
+	name:string;
+	age:number;
+	constructor(name: string ){
+		this.name = name
+	}
+}
+const person = new Person("Mark");
+
+console.log(person.name)
+
+//1. 생성자 함수가 없으면 디폴트 생성자가 불림
+//2. 클래스의 프로퍼티 혹은 멤버 변수가 정의되어 있지만
+ 값을 대입하지 않으면 undefined임
+
+//3. 접근제어자는 public이 디폴트값
+```
